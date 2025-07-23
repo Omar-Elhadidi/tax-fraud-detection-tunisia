@@ -6,10 +6,17 @@ This project uses supervised machine learning techniques to detect potential tax
 
 ## 📌 Objective
 
-- Improve tax fraud detection accuracy using ML
-- Handle missing data and outliers effectively
-- Create advanced engineered features for better performance
-- Reach the lowest possible **Root Mean Squared Error (RMSE)**
+- Improve tax fraud detection accuracy using ML  
+- Handle missing data and outliers effectively  
+- Create advanced engineered features for better performance  
+- Reach the lowest possible **Root Mean Squared Error (RMSE)**  
+
+---
+
+## 🔗 Data Source
+
+This project is based on the [Tunisian Fraud Detection Challenge on Zindi](https://zindi.africa/competitions/tunisian-fraud-detection)  
+which provides data and problem definition used here.
 
 ---
 
@@ -20,7 +27,6 @@ This project uses supervised machine learning techniques to detect potential tax
 | `tax_fraud_detection_pipeline.ipynb` | Complete pipeline from loading data to model evaluation |
 | `Report.pdf`           | Final project summary and presentation |
 | `submission_enhanced.csv` | Final prediction submission file |
-| `requirements.txt`     | Python dependencies |
 | `README.md`            | Project documentation |
 
 ---
@@ -28,28 +34,28 @@ This project uses supervised machine learning techniques to detect potential tax
 ## 🧪 Model and Techniques
 
 - **Model**: [LightGBM](https://lightgbm.readthedocs.io/) (fast gradient boosting)
-- **Validation**: 7-Fold Cross-Validation
-- **Encoding**: CatBoostEncoder + Target Encoding
-- **Feature Engineering**:
-  - Ratio and log-ratio features
-  - Categorical interactions
-  - Missing value indicators
-  - Aggregated statistics
+- **Validation**: 7-Fold Cross-Validation  
+- **Encoding**: CatBoostEncoder + Target Encoding  
+- **Feature Engineering**:  
+  - Ratio and log-ratio features  
+  - Categorical interactions  
+  - Missing value indicators  
+  - Aggregated statistics  
 
 ---
 
 ## 📊 Dataset Overview
 
-- `Train.csv`: 15,000 rows with features and a `target` column
-- `Test.csv`: 5,000 rows with features only
-- `submission.csv`: Sample format for submission
+- `Train.csv`: 15,000 rows with features and a `target` column  
+- `Test.csv`: 5,000 rows with features only  
+- `submission.csv`: Sample format for submission  
 
 ---
 
 ## 🔍 Evaluation Metric
 
-- **Root Mean Squared Error (RMSE)**
-- Lower RMSE = better model performance
+- **Root Mean Squared Error (RMSE)**  
+- Lower RMSE = better model performance  
 
 ---
 
@@ -65,23 +71,23 @@ This project uses supervised machine learning techniques to detect potential tax
 
 ## 📉 Visualization
 
-The notebook includes:
-- Target distribution plots
-- Missing value charts
-- Feature importance plots
-- Residual analysis
-- Actual vs predicted comparison
+The notebook includes:  
+- Target distribution plots  
+- Missing value charts  
+- Feature importance plots  
+- Residual analysis  
+- Actual vs predicted comparison  
 
 ---
 
 ## ⚙️ Tools and Libraries
 
-- Python 3
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- LightGBM
-- Category Encoders
+- Python 3  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit‑learn  
+- LightGBM  
+- Category Encoders  
 
 ---
 
