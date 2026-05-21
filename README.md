@@ -125,4 +125,4 @@ jupyter notebook tunisia_tax_fraud_model.ipynb
 ## 👨‍💻 Author
 
 **Omar Elhadidi**  
-[GitHub](https://github.com/Omar-Elhadidi) · [Hugging Face](https://huggingface.co/OmarElhadidi)
+[GitHub](https://github.com/Omar-Elhadidi) 
