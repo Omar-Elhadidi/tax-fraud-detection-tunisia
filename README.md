@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![LightGBM](https://img.shields.io/badge/Model-LightGBM-brightgreen)
-![Competition](https://img.shields.io/badge/Zindi-6th%20Place%20Worldwide-gold) 
+![Competition](https://img.shields.io/badge/Zindi-6th%20Place%20Worldwide-gold)  
 
 > Detecting tax fraud in Tunisia using supervised machine learning on real Ministry of Finance data — achieving **6th place out of 286 teams** worldwide on the Zindi leaderboard.
 
